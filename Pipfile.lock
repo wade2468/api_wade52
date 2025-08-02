@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "776c42b7f230e0ebbe148cbbaabeb96eba94e3ab2a2bc6956136ed14bb5da9f4"
+            "sha256": "2f5d01af067cac7ff37010bbd991c2962c7ba26f79fc865401a7f89e88d92c31"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.8"
+            "python_version": "3.10"
         },
         "sources": [
             {
@@ -33,6 +33,10 @@
             "version": "==4.5.2"
         },
         "api": {
+            "editable": true,
+            "path": "."
+        },
+        "api-wade52": {
             "editable": true,
             "path": "."
         },
@@ -194,7 +198,7 @@
                 "sha256:f136bab9c2cfd8da131132c2cf6cc27331dd6fae65f95f69dcd4ae3c3639c810",
                 "sha256:f3a86ed21e4f87050382c7bc96571755193c4c1392490744ac73d660e8f564a9"
             ],
-            "markers": "python_version < '3.10'",
+            "index": "pypi",
             "version": "==1.24.4"
         },
         "pandas": {
